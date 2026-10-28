@@ -91,7 +91,7 @@ fun InCallScreen(onEndCall: () -> Unit) {
                 horizontalArrangement = Arrangement.SpaceEvenly
             ) {
                 CallActionButton(icon = Icons.Default.Dialpad, label = "Клавиатура") {}
-                CallActionButton(icon = Icons.Default.AddCall, label = "Добавить") {}
+                CallActionButton(icon = Icons.Default.Add, label = "Добавить") {}
                 CallActionButton(icon = Icons.Default.Pause, label = "Удержание") {}
             }
         }
